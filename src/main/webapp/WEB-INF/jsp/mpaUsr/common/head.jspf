@@ -27,17 +27,17 @@
 
 <link rel="stylesheet" href="/resource/common.css" />
 <script src="/resource/common.js" defer></script>
-<title>INSTA</title>
+<title>THE Blog</title>
 </head>
 <body>
 	<div class="site-wrap">
 		<header class="top-bar top-bar--fly">
 			<div class="container mx-auto flex h-full">
-				<a href="/" class="px-3 flex items-center">
+				<a href="/" class="px-3 flex items-center" style="font-size:25px">
 					<span>
-						<i class="fas fa-lemon"></i>
+						<i class="fab fa-connectdevelop"></i>
 					</span>
-					<span class="hidden sm:block">&nbsp;INSTA</span>
+					<span class="hidden sm:block">&nbsp;THE Blog</span>
 				</a>
 
 				<div class="flex-grow"></div>
@@ -45,6 +45,7 @@
 				<nav class="menu-box-1">
 					<ul class="flex h-full">
 						<c:if test="${rq.logined && rq.needToChangePassword}">
+						
 						<li class="text-red-400">
                             <a href="../member/checkPassword?afterUri=..%2Fmember%2Fmodify" class="h-full flex items-center px-5">
                                 <span>

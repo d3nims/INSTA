@@ -245,12 +245,14 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
 }
 
 .top-bar .menu-box-1 ul > li:hover > a {
-  background-color:var(--top-bar__color-1);
+  color:white;
+  background-color:black;
 }
 /* 탑바 - 메뉴 박스 - 아이템 끝 */
 
 /* 탑바 - 메뉴 박스 - 2차 메뉴 시작 */
 .top-bar .menu-box-1 > ul > li:hover > div {
+	
   display:block;
 }
 
@@ -266,11 +268,12 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
 }
 
 .top-bar .menu-box-1 > ul > li > div > h1 > a {
+  color:white;
   display:flex;
-  background-color:flex;
+  background-color:black;
   justify-content:center;
   padding:.5rem 0;
-  background-color:var(--top-bar__color-1);
+  background-color:black(--top-bar__color-1);
 }
 
 .top-bar .menu-box-1 > ul > li > div > ul > li > a {
@@ -287,5 +290,9 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
   width:100%;
   z-index:50;
   position:fixed;
+}
+
+.mainsection-1 {
+	text-align: center;
 }
 /* 탑바 끝 */
