@@ -259,6 +259,7 @@ box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #
 
 /* 탑바 - 메뉴 박스 - 2차 메뉴 시작 */
 .top-bar .menu-box-1 > ul > li:hover > div {
+	
   display:block;
 }
 

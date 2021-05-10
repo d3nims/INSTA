@@ -4,6 +4,8 @@
 
 <c:set var="pageTitle" value="<span><i class='fas fa-home'></i></span> <span>HOME</span>" />
 
+
+
 <%@ include file="../common/head.jspf" %>
 
 <section class="mainsection-1">
