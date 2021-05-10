@@ -27,7 +27,7 @@
 
 <link rel="stylesheet" href="/resource/common.css" />
 <script src="/resource/common.js" defer></script>
-<title>INSTA</title>
+<title>THE Blog</title>
 
 <script>
 const param = ${rq.paramJsonStr};
@@ -37,11 +37,11 @@ const param = ${rq.paramJsonStr};
 	<div class="site-wrap">
 		<header class="top-bar top-bar--fly">
 			<div class="container mx-auto flex h-full">
-				<a href="/" class="px-3 flex items-center">
+				<a href="/" class="px-3 flex items-center" style="font-size:25px">
 					<span>
-						<i class="fas fa-lemon"></i>
+						<i class="fab fa-connectdevelop"></i>
 					</span>
-					<span class="hidden sm:block">&nbsp;INSTA</span>
+					<span class="hidden sm:block">&nbsp;THE Blog</span>
 				</a>
 
 				<div class="flex-grow"></div>
